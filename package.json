@@ -1,0 +1,32 @@
+{
+  "name": "gitcat",
+  "version": "1.0.4",
+  "description": "This is just a fun way to do git commands and see some cat drawings.",
+  "bin": {
+    "status": "commands/status.js",
+    "add.": "commands/addAll.js",
+    "cmt": "commands/commit.js",
+    "stash": "commands/stash.js",
+    "pop": "commands/stashpop.js",
+    "push": "commands/push.js"
+  },
+  "author": "Torng-Lin Taffy Chen",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "shelljs": "^0.7.0"
+  },
+  "main": "cats.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxww/gitcat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maxww/gitcat/issues"
+  },
+  "homepage": "https://github.com/maxww/gitcat#readme"
+}
