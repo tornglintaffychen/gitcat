@@ -1,6 +1,6 @@
 {
   "name": "gitcat",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "This is just a fun way to do git commands and see some cat drawings.",
   "bin": {
     "status": "commands/status.js",
